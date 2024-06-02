@@ -1,0 +1,21 @@
+.menuBtn {
+    &__btn {
+        border-radius: 12px;
+        width: 100%;
+        padding: 12px;
+        background: none;
+        border: none;
+        color: rgb(57, 65, 75);
+        font-family: Nunito;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        text-align: left;
+        cursor: pointer;
+        &_active {
+            color: rgb(255, 255, 255);
+            background: rgb(95, 191, 119);
+        }
+    }
+}

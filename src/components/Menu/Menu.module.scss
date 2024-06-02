@@ -1,0 +1,9 @@
+.menu {
+    max-width: 264px;
+    width: 100%;
+    &__items {
+        border: 1px solid rgb(207, 207, 228);
+        border-radius: 18px;
+        padding: 12px;
+    }
+}
